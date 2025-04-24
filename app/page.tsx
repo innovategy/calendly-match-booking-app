@@ -2,7 +2,6 @@
 import React, { useState } from 'react';
 import CalendarSelector from '../components/CalendarSelector';
 import BookingConfirmation from '../components/BookingConfirmation';
-import GlassmorphismPanel from '../components/GlassmorphismPanel';
 
 // HomePage: Landing page for selecting times and inputting Calendly URL
 const HomePage: React.FC = () => {
@@ -12,9 +11,6 @@ const HomePage: React.FC = () => {
   const [match, setMatch] = useState<string | null>(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
-
-  // TODO: Implement handlers for slot selection and Calendly URL input
-  // TODO: Implement API calls to fetch-availability and find-match
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen">

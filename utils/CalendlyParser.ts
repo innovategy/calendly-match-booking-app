@@ -54,18 +54,3 @@ export async function fetchCalendlyAvailability(calendlyUrl: string): Promise<st
   }
   return slots;
 }
-
-
-// Test block: run with npx ts-node utils/CalendlyParser.ts
-if (require.main === module) {
-  (async () => {
-    const url = 'https://calendly.com/sinaghazi/online-meeting';
-    try {
-      const slots = await fetchCalendlyAvailability(url);
-      console.log('Available slots:', slots);
-    } catch (err) {
-      console.error('Error fetching slots:', err);
-    }
-    process.exit(0);
-  })();
-}
