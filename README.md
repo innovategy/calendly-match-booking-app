@@ -86,7 +86,6 @@ This project is a **POC (Proof of Concept)**, built for a client to demonstrate 
 
 ## 🚧 Limitations & Next Steps
 - This is a POC: not production-hardened, and proxies are public/open (not guaranteed stable).
-- Future extensions: OAuth calendar integration, batch booking, country-aware proxy selection.
 
 ---
 
@@ -99,7 +98,7 @@ This project is a **POC (Proof of Concept)**, built for a client to demonstrate 
 ---
 
 ## 🤝 Attribution & License
-- Built as a POC for client demonstration purposes only.
+- Built as a POC for client
 - Uses open-source libraries: Next.js, React, Tailwind CSS, node-fetch, https-proxy-agent.
 - Proxy list courtesy of [TheSpeedX/PROXY-List](https://github.com/TheSpeedX/PROXY-List).
 
